@@ -66,6 +66,7 @@ header .intro-text {
 
   .blue-bg{
     background: $blue;
+    padding-bottom: 3%;
     h1, h4, h3, p {
       color: #fff;
     } p{
@@ -74,5 +75,45 @@ header .intro-text {
       border: 2px solid #fff;
     }img{
       max-width: 100%;
+    }
+  }
+
+// SLOGAN SECTION
+
+  .mtn-bg{
+    background-image: url('/assets/purple-mtn.jpg');
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
+    padding: 100px 0px;
+    h1 {
+      font-weight: 100;
+    } .btn-white{
+      background-color: none;
+      border-radius: 0;
+      border: 2px solid #fff;
+      color: #fff;
+      font-weight: 100;
+      padding: 15px 30px;
+      transition: background-color 1s ease-in-out, color 1s ease-in-out;
+      -webkit-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+      -o-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+      -moz-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    }
+
+    .btn-white:hover{
+      background-color: #fff;
+      color: $blue;
+      font-weight: 100;
+      padding: 15px 30px;
+      transition: background-color 1s ease-in-out, color 1s ease-in-out;
+      -webkit-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+      -o-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+      -moz-transition: background-color 1s ease-in-out, color 1s ease-in-out;
     }
   }
