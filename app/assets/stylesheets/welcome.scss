@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$blue: #223a54;
 
 header {
   background-image: url('/assets/train.jpg');
@@ -25,3 +26,49 @@ header .intro-text {
 .content-space{
   padding-top: 3%;
 }
+
+.head-title{
+  border-right: 2px solid #000;
+}
+
+
+// ABOUT SECTION
+
+  .about-img{
+    max-width: 80%;
+  }
+
+  .btn-blue{
+    background-color: none;
+    border-radius: 0;
+    border: 2px solid $blue;
+    color: $blue;
+    font-weight: 100;
+    padding: 15px 20px;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    -webkit-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    -o-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    -moz-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+  }
+
+  .btn-blue:hover{
+    background-color: $blue;
+    color: #fff;
+    font-weight: 100;
+    padding: 15px 20px;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    -webkit-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    -o-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    -moz-transition: background-color 1s ease-in-out, color 1s ease-in-out;
+  }
+
+// WORK SECTION
+
+  .blue-bg{
+    background: $blue;
+    h1, h4, p {
+      color: #fff;
+    } p{
+      font-weight: 100;
+    }
+  }
