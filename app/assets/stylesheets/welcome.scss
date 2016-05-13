@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 $blue: #223a54;
+$b_grey: #9caab2;
 
 header {
   background-image: url('/assets/train.jpg');
@@ -116,4 +117,12 @@ header .intro-text {
       -o-transition: background-color 1s ease-in-out, color 1s ease-in-out;
       -moz-transition: background-color 1s ease-in-out, color 1s ease-in-out;
     }
+  }
+
+
+// FOOTER
+
+  .footer-bg{
+    background: $b_grey;
+    padding-bottom: 3%;
   }
