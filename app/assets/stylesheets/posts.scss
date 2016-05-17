@@ -3,7 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .blog-p{
-  font-weight: 100;
-  letter-spacing: 2px;
-  font-size: 15px;
+  padding-top: 15%;
+  p{
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding-top: 20px;
+  }
 }

@@ -31,6 +31,9 @@ gem 'animate.css-rails', '~> 3.2'
 # WOW.js
 gem 'wow-rails', '~> 0.0.1'
 
+gem 'pygments.rb', '~> 0.6.3'
+gem 'redcarpet', '~> 3.3', '>= 3.3.4'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

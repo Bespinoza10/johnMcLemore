@@ -1,8 +1,8 @@
 <div class="container">
-  <div class="row content-space">
-    <div class="col-md-8 center-block content-space">
+  <div class="row">
+    <div class="col-md-8 center-block blog-p">
       <h1 style="text-align:center;"><%= @post.title %></h1>
-      <%= simple_format @post.content, class: "blog-p" %>
+      <%= markdown @post.content%>
     </div>
   </div>
 </div>
