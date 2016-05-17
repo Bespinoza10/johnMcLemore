@@ -33,6 +33,8 @@ gem 'wow-rails', '~> 0.0.1'
 
 gem 'pygments.rb', '~> 0.6.3'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
+# URL NAME
+gem 'friendly_id', '~> 5.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
