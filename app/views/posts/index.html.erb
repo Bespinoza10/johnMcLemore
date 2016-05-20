@@ -1,8 +1,40 @@
-<h1>Hello WOrld</h1>
+<header class="blog-bg">
+  <div class="container">
+    <div class="intro-text">
+      <h2>John C. McLemore, PPLC</h2>
+      <hr>
+      <div>
+        <h3>News and Blogs</h3>
+      </div>
+      <br>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content-space">
+      <h1>News</h1>
+      <hr>
+      <h3>What is Trending</h3>
+    </div>
+  </div>
+
+<!--   POSTS -->
+
+  <div class="col-md-12 content-space ">
+    <% @post.each do |post| %>
+      <div class="col-md-4 posts content-space">
+        <h1><%= link_to post.title, post %></h1>
+        <p class="date"><%= post.created_at.strftime('%A, %B %d') %></p>
+        <p class="pre-content"><%= truncate(post.content, length: 130)%></p>
+      </div>
+    <%end%>
+  </div>
+
+</div>
 <div class="col-md-4">
-  <% @post.each do |post| %>
-    <h1><%= link_to post.title, post %></h1>
-  <%end%>
+
 </div>
 
 
