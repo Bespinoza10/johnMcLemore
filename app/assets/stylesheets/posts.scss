@@ -16,6 +16,16 @@ header.blog-bg{
   height: 100vh;
 }
 
+header.blog-show-bg .intro-text {
+  padding: 60px 60px;
+  text-align: center;
+}
+
+.blog-show-bg .intro-text h1{
+  font-size: 50px;
+  color: #000;
+}
+
 .blog-p{
   padding-top: 15%;
   p{
@@ -42,4 +52,92 @@ font-size: 15px;
   letter-spacing: 2px;
 }
 
+.btn-new-post{
+  background-color: #FFFFFF;
+  color: #0B6CF7;
+  border: 2px solid #0B6CF7;
+  border-radius: 0;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
 
+.btn-new-post:hover{
+  background-color: #0B6CF7;
+  color: #fff;
+  border: 2px solid #0B6CF7;
+  border-radius: 0;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.edit{
+  background-color: #FFFFFF;
+  color: #FF9831;
+  border: 2px solid #FF9831;
+  border-radius: 0;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.edit:hover{
+  background-color: #FF9831;
+  color: #fff;
+  border: 2px solid #FF9831;
+  border-radius: 0;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+
+.delete{
+  background-color: #FFFFFF;
+  color: #FF1C10;
+  border: 2px solid #FF1C10;
+  border-radius: 0;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.delete:hover{
+  background-color: #FF1C10;
+  color: #fff;
+  border: 2px solid #FF1C10;
+  border-radius: 0;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+
+.all-posts{
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 2px solid #000;
+  border-radius: 0;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.all-posts:hover{
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 0;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}

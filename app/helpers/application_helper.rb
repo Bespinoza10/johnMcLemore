@@ -18,4 +18,9 @@ module ApplicationHelper
     }
     Redcarpet::Markdown.new(renderer, options).render(content).html_safe
   end
+
+  def randomized_background_image
+    images = ["/assets/blogs-bg/bg#{rand(8)}.jpg"]
+    images[rand(images.size)]
+  end
 end
