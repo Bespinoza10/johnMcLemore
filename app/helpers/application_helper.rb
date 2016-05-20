@@ -20,7 +20,7 @@ module ApplicationHelper
   end
 
   def randomized_background_image
-    images = ["/assets/blogs-bg/bg#{rand(1-6)}.jpg"]
+    images = ["/assets/blogs-bg/bg#{rand(6)}.jpg"]
     images[rand(images.size)]
   end
 end
