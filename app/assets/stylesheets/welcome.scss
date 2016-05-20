@@ -39,6 +39,11 @@ header .intro-text {
     max-width: 80%;
   }
 
+  p{
+    letter-spacing: 2px;
+    font-size: 15px;
+  }
+
   .btn-blue{
     background-color: none;
     border-radius: 0;
@@ -79,6 +84,32 @@ header .intro-text {
     }
   }
 
+  .btn-work:hover{
+    background-color: #fff;
+    border-radius: 0;
+    border: 2px solid $blue;
+    color: $blue;
+    font-weight: 100;
+    padding: 15px 20px;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out, border .3s ease-in-out;
+    -webkit-transition: background-color 1s ease-in-out, color 1s ease-in-out, border .3s ease-in-out;
+    -o-transition: background-color 1s ease-in-out, color 1s ease-in-out, border .3s ease-in-out;
+    -moz-transition: background-color 1s ease-in-out, color 1s ease-in-out, border .3s ease-in-out;
+  }
+
+  .btn-work{
+    background-color: $blue;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 0px;
+    padding: 15px 20px;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out, border .3s ease-in-out;
+    -webkit-transition: background-color 1s ease-in-out, color 1s ease-in-out, border .3s ease-in-out;
+    -o-transition: background-color 1s ease-in-out, color 1s ease-in-out, border .3s ease-in-out;
+    -moz-transition: background-color 1s ease-in-out, color 1s ease-in-out, border .3s ease-in-out;
+  }
+
 // SLOGAN SECTION
 
   .mtn-bg{
@@ -117,6 +148,17 @@ header .intro-text {
       -o-transition: background-color 1s ease-in-out, color 1s ease-in-out;
       -moz-transition: background-color 1s ease-in-out, color 1s ease-in-out;
     }
+  }
+
+  // NEWS
+
+  .news-links{
+    color: #fff;
+  }
+
+  .news-links:hover{
+    color: #fff;
+    cursor: pointer;
   }
 
 

@@ -21,10 +21,15 @@
       <h4>Our History</h4>
     </div>
     <div class="col-md-6 content-space">
-      <p>Statement character code value single step magic quotes hdml array of pointers metalanguage. Literal exception handling software engineering source data method mbean python pickling input/output statement. Python lisp jscript computer science undefined bool thread undefined variable operator source computer. Declare %1 reserved word safe font foreach java math xor operator javabean. Build computer bit shift acm gw basic pick expression reserved word method overloading. Conditional expression dependent variable lambda calculus jsr no-operation instructions unary operator prolog bug.</p>
+      <p>John C. McLemore, PLLC is a boutique law firm specializing in complex Chapter 7 bankruptcy,
+including trusteeship, receivership, and debt relief.</p>
       <p>
-        Mumps jdbc spl compilation religion of chi exception lisp backend chaos model value p-code. Library mumps qt loosely typed language native compiler separator compilation programming natural language undefined variable. Module single step exception handling sparsity php middleware html element shell scripts dylan programming language. Escape character xhtml special purpose language bind glitch go language int 5gl debug.
-      </p>
+John McLemore has a longstanding track record of success and has handled many high-profile
+bankruptcy cases and receiverships. From unscrambling Ponzi schemes to custom-crafting
+bankruptcy strategy, we are on your side every step of the way. When John takes your case, you get
+a 30-year veteran in the Chapter 7 bankruptcy industry, plus an investigator, bookkeeper, and
+experienced support team to help you navigate the complex waters of Chapter 7 bankruptcy.</p>
+      
       <br>
       <a href="#" class="btn btn-blue">Learn More</a>
     </div>
@@ -54,8 +59,9 @@
       </div>
       <div class="col-md-6 content-space">
         <p>
-          Statement character code value single step magic quotes hdml array of pointers metalanguage. Literal exception handling software engineering source data method mbean python pickling input/output statement. Python lisp jscript computer science undefined bool thread undefined variable operator source computer. Declare %1 reserved word safe font foreach java math xor operator javabean. Build computer bit shift acm gw basic pick expression reserved word method overloading. Conditional expression dependent variable lambda calculus jsr no-operation instructions unary operator prolog bug.
+          We are your best advocate when it comes to complex Chapter 7 bankruptcy. Whether you&#39;re a bank,large corporation, small-to- medium-sized business, or high net worth individual, we providecustomized solutions to ensure the successful resolution of your case. Our services include helpingindividuals and businesses file for debt relief, devise a bankruptcy strategy, recover funds, and serveas a trustee or receiver in bankruptcy cases.
         </p>
+        <a href="#" class="btn btn-work">Learn More</a>
       </div>
     </div>
   </div>
@@ -93,24 +99,13 @@
       </div>
     </div>
     <div class="row content-space">
-      <div class="col-md-6">
-        <h3>Win in Nashville</h3>
-        <p>kfndsnfdjsnfdj ackd vkca cds xsdjnd isnfdnie dindjf dsdnwjksd cadkd d hsd rjfnjeNDSN...</p>
-      </div>
-      <div class="col-md-6">
-        <h3>Win in Nashville</h3>
-        <p>kfndsnfdjsnfdj ackd vkca cds xsdjnd isnfdnie dindjf dsdnwjksd cadkd d hsd rjfnjeNDSN...</p>
-      </div>
-
-      <div class="col-md-6">
-        <h3>Win in Clarksville</h3>
-        <p>kfndsnfdjsnfdj ackd vkca cds xsdjnd isnfdnie dindjf dsdnwjksd cadkd d hsd rjfnjeNDSN...</p>
-      </div>
-
-      <div class="col-md-6">
-        <h3>Win in Franklin</h3>
-        <p>kfndsnfdjsnfdj ackd vkca cds xsdjnd isnfdnie dindjf dsdnwjksd cadkd d hsd rjfnjeNDSN...</p>
-      </div>
+      <% @posts.each do |post| %>
+        <div class="col-md-6">
+          <h3><%= link_to post.title, post, class: "news-links" %></h3>
+          <p class="dates"> <%= post.created_at.strftime("%A, %b %d") %> </p>
+          <p class="pre-content"><%= truncate(post.content, length: 100)%></p>
+        </div>
+      <% end %>
     </div>
   </div>
 </div>
