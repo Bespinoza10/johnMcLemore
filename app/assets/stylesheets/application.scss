@@ -20,6 +20,11 @@
 @import "welcome";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 
-body{
+body, h1, h2, h3, h4, h5, h6, p, li, a {
   font-family: 'Lato', sans-serif;
+}
+
+.center-block{
+  margin: 0 auto;
+  float: none;
 }

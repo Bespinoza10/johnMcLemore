@@ -1,0 +1,9 @@
+<h1>Hello WOrld</h1>
+<div class="col-md-4">
+  <% @post.each do |post| %>
+    <h1><%= link_to post.title, post %></h1>
+  <%end%>
+</div>
+
+
+<a href="<%= new_post_path %>">New Post</a>
