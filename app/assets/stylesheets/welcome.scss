@@ -8,7 +8,7 @@ $b_grey: #9caab2;
 header {
   background-image: url('/assets/train.jpg');
   background-repeat: none;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -20,7 +20,7 @@ header {
 }
 header .intro-text {
   padding-top: 320px;
-  padding-bottom: 50px;
+
   text-align: left;
 }
 
@@ -115,14 +115,15 @@ header .intro-text {
   .mtn-bg{
     background-image: url('/assets/purple-mtn.jpg');
     background-repeat: none;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    text-align: center;
+    text-align: left;
     padding: 100px 0px;
+    color: #fff;
     h1 {
       font-weight: 100;
     } .btn-white{
