@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   root 'welcome#index'
   resources :posts, path: :news
 
+  get '*path' => redirect('/')
+
 end
