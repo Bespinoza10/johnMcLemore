@@ -22,6 +22,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 
+$blue: #223a54;
+$b_grey: #9caab2;
+
 body, h1, h2, h3, h4, h5, h6, p, li, a {
   font-family: 'Lato', sans-serif;
 }
@@ -33,4 +36,20 @@ body, h1, h2, h3, h4, h5, h6, p, li, a {
 
 .form-control{
   border-radius: 0;
+}
+#notice-wrapper{
+  position: absolute;
+  top: 49px;
+  width: 100%;
+  z-index: 999;
+  background: $blue;
+  p{
+    padding: 1.5rem 0;
+    text-align: center;
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+  }
 }

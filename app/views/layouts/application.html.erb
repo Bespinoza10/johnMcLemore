@@ -11,6 +11,16 @@
 </head>
 <body>
 
+
+<% if notice %>
+  <div id="notice-wrapper">
+    <p class="notice"><%= notice %></p>
+  </div>
+<%elsif alert%>
+  <div id="notice-wrapper">
+    <p class="alert"><%= alert %></p>
+  </div>
+<%end%>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,10 +50,9 @@
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
+
   </nav>
 
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
 <%= yield %>
 
   <!-- CONTACT -->
@@ -81,4 +90,6 @@
   </div>
 
 </body>
+
+
 </html>
