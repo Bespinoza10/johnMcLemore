@@ -36,6 +36,9 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 # URL NAME
 gem 'friendly_id', '~> 5.1'
 
+# Auth Login
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
