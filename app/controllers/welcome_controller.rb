@@ -4,4 +4,12 @@ class WelcomeController < ApplicationController
     @posts = Post.all.limit(6).order("created_at desc")
   end
 
+  def about
+
+  end
+
+  def work
+    
+  end
+
 end
