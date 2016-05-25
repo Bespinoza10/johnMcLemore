@@ -31,9 +31,11 @@
           <hr>
         </div>
       <%end%>
-      <div class="col-md-3" style="padding-bottom: 3%;">
-        <a class="btn btn-default btn-new-post" href="<%= new_post_path %>">New Post</a>
-      </div>
+      <% if user_signed_in? %>
+        <div class="col-md-3" style="padding-bottom: 3%;">
+          <a class="btn btn-default btn-new-post" href="<%= new_post_path %>">New Post</a>
+        </div>
+      <%end%>
     </div>
   </div>
 </div>
