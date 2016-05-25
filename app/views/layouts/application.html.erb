@@ -42,7 +42,7 @@
           <li><a href="<%= welcome_about_path %>">About</a></li>
           <li><a href="<%= welcome_work_path %>">Work</a></li>
           <li><a href="<%= posts_path%>">News</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#contactModal" data-toggle="modal">Contact</a></li>
         <% if user_signed_in? %>
             <li><a href="<%= new_post_path %>">New Post</a></li>
             <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
