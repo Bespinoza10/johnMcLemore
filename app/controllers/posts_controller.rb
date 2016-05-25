@@ -14,9 +14,9 @@ class PostsController < ApplicationController
     @post = Post.new post_params
 
     if @post.save
-      redirect_to @post, notice: "Sucess! Your Post has been saved!"
+      redirect_to @post, notice: "Sucess! Your Post Has Been Saved!"
     else
-      render 'new', notice: "Sorry, your post wasn't successfully saved."
+      render 'new', notice: "Sorry, Your Post Wasn't Successfully Saved."
     end
   end
 
@@ -30,7 +30,7 @@ class PostsController < ApplicationController
 
   def update
     if @post.update post_params
-      redirect_to @post, notice: "Great! Your Article was successfully saved!"
+      redirect_to @post, notice: "Great! Your Post Was Successfully Saved!"
     else
       render 'edit'
     end
@@ -38,7 +38,7 @@ class PostsController < ApplicationController
 
   def destroy
     @post.destroy
-    redirect_to posts_path, notice: "You Deleted your Post Succesfully"
+    redirect_to posts_path, notice: "You Deleted Your Post Succesfully"
   end
 
   private
