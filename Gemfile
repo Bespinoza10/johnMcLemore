@@ -28,6 +28,7 @@ gem 'bootstrap-sass'
 # Animate.css
 gem 'animate.css-rails', '~> 3.2'
 
+gem 'hover-rails', '~> 2.0', '>= 2.0.2'
 # WOW.js
 gem 'wow-rails', '~> 0.0.1'
 

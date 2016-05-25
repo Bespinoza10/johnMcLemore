@@ -1,3 +1,5 @@
+$blue: #223a54;
+
 .navbar{
   background: rgba(255, 255, 255, 0.44);
   border: none;
@@ -24,8 +26,12 @@
     -o-transition: font-size .3s ease-in-out;
     -moz-transition: font-size .3s ease-in-out;
   }
-} 
+}
 
+
+li > a.hvr-underline-reveal:before{
+      background: #fff;
+    }
 // on Scroll
 
   .shrink{
@@ -48,3 +54,22 @@
       -moz-transition: font-size .3s ease-in-out;
     }
   }
+
+  // ON MOBILE
+
+  .navbar-default .navbar-toggle{
+    border-radius: 0;
+    border-color: #fff;
+  }
+  .navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+  }
+
+  .navbar-toggle .icon-bar{
+    border-radius: 0;
+  }
+
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background: $blue;
+  }
+
