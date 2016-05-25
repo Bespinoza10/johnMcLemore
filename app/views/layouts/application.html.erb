@@ -44,8 +44,8 @@
           <li><a class="hvr-underline-reveal" href="<%= posts_path%>">News</a></li>
           <li><a class="hvr-underline-reveal" href="#contactModal" data-toggle="modal">Contact</a></li>
         <% if user_signed_in? %>
-            <li><a href="<%= new_post_path %>">New Post</a></li>
-            <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
+            <li><a class="hvr-underline-reveal" href="<%= new_post_path %>">New Post</a></li>
+            <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "hvr-sweep-to-top signout" %></li>
         <%end%>
         </ul>
       </div><!-- /.navbar-collapse -->

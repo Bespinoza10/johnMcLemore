@@ -32,6 +32,18 @@ $blue: #223a54;
 li > a.hvr-underline-reveal:before{
       background: #fff;
     }
+
+li > a.hvr-sweep-to-top:before{
+  background: #FF6F6E;
+}
+
+.navbar .navbar-right li > a.signout:hover{
+  color: #fff;
+  transition: color .2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+}
 // on Scroll
 
   .shrink{
@@ -52,6 +64,8 @@ li > a.hvr-underline-reveal:before{
       -webkit-transition: font-size .3s ease-in-out;
       -o-transition: font-size .3s ease-in-out;
       -moz-transition: font-size .3s ease-in-out;
+    }li > a.hvr-underline-reveal:before{
+      background: $blue;
     }
   }
 
