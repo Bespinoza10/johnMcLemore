@@ -28,7 +28,7 @@
   <div class="row">
     <div class="col-md-8 center-block blog-p">
       <h1 style="text-align:center;"><%= @post.title %></h1>
-      <p class="date" style="text-align: center;"><%= @post.created_at.strftime('%A, %B %d') %></p>
+      <p class="date" style="text-align: center;"><%= @post.date %></p>
       <%= markdown @post.content%>
     </div>
     <% if user_signed_in? %>
